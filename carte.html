@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/carte.css">
+    <title>Le petit Montagnard</title>
+</head>
+
+<body class="bg-light">
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border border-secondary">
+        <a class="navbar-brand" href="#"><img src="img/logo-le-ptit-montagnard.png" class="w-50"></a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Carte<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Photo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Restaurant</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="text-center bg-danger p-3 text-white border border-secondary">Menu du P'tit Montagnard</h1>
+
+    <div class="card-deck py-3">
+
+        <!-- carte entrées -->
+
+        <div class="card">
+            <img src="img/plat1.jpg" class="card-img-top" alt="les entrées du petit montagnard">
+            <div class="card-body">
+                <h2 class="card-title"><span class="text-danger">Nos</span> entrées</h2>
+                <p class="card-text">Laissez-vous tenter par nos savoureuses entrées...</p>
+            </div>
+            <div class="card-footer bg-dark">
+                <button class="btn btn-block btn-outline-warning" data-toggle="modal" data-target="#entrees">La carte
+                    des entrées</button>
+            </div>
+        </div>
+
+        <!-- carte des plats -->
+
+        <div class="card">
+            <img src="img/plat2.jpg" class="card-img-top" alt="les plats du petit montagnard">
+            <div class="card-body">
+                <h2 class="card-title"><span class="text-danger">Nos</span> plats</h2>
+                <p class="card-text">Tous nos plats sont accompagnés de frites ou croquettes et crudités</p>
+            </div>
+            <div class="card-footer bg-dark">
+                <button class="btn btn-block btn-outline-warning" data-toggle="modal" data-target="#plats">La carte des
+                    plats</button>
+            </div>
+        </div>
+
+        <!-- carte des desserts -->
+
+        <div class="card">
+            <img src="img/dessert.jpg" class="card-img-top" alt="les desserts du petit montagnard">
+            <div class="card-body">
+                <h2 class="card-title"><span class="text-danger">Nos</span> desserts</h2>
+                <p class="card-text" >Quoi de mieux qu'un dessert pour compléter votre repas chez nous! Êtes-vous plus du
+                    type chocolat ou caramel?</p>
+            </div>
+            <div class="card-footer bg-dark">
+                <button class="btn btn-block btn-outline-warning" data-toggle="modal" data-target="#desserts">La carte
+                    des desserts</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL --->
+
+    <div id="entrees" class="modal fade">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title m-auto">La <span class="text-danger">carte</span> des entrées </h5>
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body bg-danger">
+                    <div class="container  text-light">
+                        <div class="row" style="background-image: url(img/black-background.jpg);">
+                            <div class="col py-2">Brochette à la pièce</div>
+                            <div class="col py-2">1,50€</div>
+                            <div class="w-100"></div>
+                            <div class="col py-2 ">Planche P'tit Montagnard (fromages,charcuteries,fruits)</div>
+                            <div class="col py-2">6€/p.p.</div>
+                            <div class="w-100"></div>
+                            <div class="col py-2 ">Croquette fromage, P'tit Montagnard ou crevettes</div>
+                            <div class="col py-2">6€</div>
+                            <div class="w-100"></div>
+                            <div class="col py-2">Duo de croquettes</div>
+                            <div class="col py-2">11€</div>
+                            <div class="w-100"></div>
+                            <div class="col py-2">Trio de crequettes</div>
+                            <div class="col py-2">17€</div>
+                            <div class="w-100"></div>
+                            <div class="col py-2">Scampis au beurre à l'ail</div>
+                            <div class="col py-2">12€</div>
+                            <div class="w-100"></div>
+                            <div class="col py-2">Carpaccio</div>
+                            <div class="col py-2">12€</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                    <button class="btn btn-primary" data-toggle="tooltip" data-placement="bottom"
+                        title="Bientôt disponible">Ajouter au panier</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="plats" class="modal fade">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title m-auto">La <span class="text-danger">carte</span> des plats</h5>
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body bg-danger">
+                    <div class="container  text-light">
+                        <div class="row" style="background-image: url(img/black-background.jpg)">
+                            <div class="col py-2">Americain maison</div>
+                            <div class="col py-2">13€</div>
+                            <div class="w-100"></div>
+                            <div class="col py-2 ">Hamburger savoyard (fromage de savoie) ou maison (cheddard)</div>
+                            <div class="col py-2">13€</div>
+                            <div class="w-100"></div>
+                            <div class="col py-2 ">brochettes</div>
+                            <div class="col py-2">15€</div>
+                            <div class="w-100"></div>
+                            <div class="col py-2">Scampis beurre à l'ail</div>
+                            <div class="col py-2">17€</div>
+                            <div class="w-100"></div>
+                            <div class="col py-2">Carpaccio</div>
+                            <div class="col py-2">18€</div>
+                            <div class="w-100"></div>
+                            <div class="col py-2">Filet pur</div>
+                            <div class="col py-2">18€</div>
+                            <div class="w-100"></div>
+                            <div class="col py-2">Raclette (avec appareil en prêt gratuitement)</div>
+                            <div class="col py-2">22€</div>
+                            <div class="w-100"></div>
+                            <div class="col py-2">Côte à l'os boeuf ou cheval ou NEW ORLEANS (côte à l'os de boeuf flambée au bourbon)</div>
+                            <div class="col py-2">23€</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                    <button class="btn btn-primary" data-toggle="tooltip" data-placement="bottom"
+                        title="Bientôt disponible">Ajouter au panier</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="desserts" class="modal fade">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title m-auto">La <span class="text-danger">carte</span> des desserts</h5>
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body bg-danger">
+                    <div class="container  text-light">
+                        <div class="row" style="background-image: url(img/black-background.jpg);">
+                            <div class="col py-2">Mousse au chocolat maison</div>
+                            <div class="col py-2">8€</div>
+                            <div class="w-100"></div>
+                            <div class="col py-2 ">Glace aux fruits</div>
+                            <div class="col py-2">8€</div>
+                            <div class="w-100"></div>
+                            <div class="col py-2 ">Banana Split</div>
+                            <div class="col py-2">8€</div>
+                            <div class="w-100"></div>
+                            <div class="col py-2">Salade de fruits</div>
+                            <div class="col py-2">8€</div>
+                            <div class="w-100"></div>
+                            <div class="col py-2">Tiramisu</div>
+                            <div class="col py-2">8€</div>
+                            <div class="w-100"></div>
+                            <div class="col py-2">Crumble aux fruits</div>
+                            <div class="col py-2">8€</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                    <button class="btn btn-primary" data-toggle="tooltip" data-placement="bottom"
+                        title="Bientôt disponible">Ajouter au panier</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="container-fluid bg-danger text-white pb-5">
+        <div class="row justify-content-center d-flex">
+            <div class="mt-auto mb-auto col-md-2 col-sm-12 col-12 h5 mt-sm-5 text-center">
+                © 2020 Copyright: <a href="https://mdbootstrap.com/education/bootstrap/"> </br>Le P'tit Montagnard</a>
+            </div>
+            <div class="mt-auto mb-auto col-md-4 col-sm-12 col-12 py-5">
+                <div class="justify-content-center d-flex">
+                    <!-- Facebook -->
+                    <a class="fb-ic my-font-awesome" href="#">
+                        <i class="fa fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!-- Twitter -->
+                    <a class="tw-ic my-font-awesome" href="#">
+                        <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Linkedin -->
+                    <a class="li-ic my-font-awesome" href="#">
+                        <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Instagram-->
+                    <a class="ins-ic my-font-awesome" href="#">
+                        <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-auto mb-auto justify-content-center d-flex col-md-6 col-sm-12 col-12 h5 text-sm-center">
+                This website has been realised by -<a href="https://www.linkedin.com/in/leonard-samuel/"> Samuel
+                    Leonard</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</body>
+
+<!-- details card section starts from here -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+</body>
+
+</html>

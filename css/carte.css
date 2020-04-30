@@ -1,0 +1,97 @@
+
+
+h1 {
+  font-size: 50px;
+  font-family: 'Courgette', cursive;
+}
+
+.row div{
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size:1.1em;
+}
+
+h2{
+  font-family: 'Courgette', cursive;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h5{
+  font-family: 'Courgette', cursive;
+  font-weight: bold;
+  font-size: 30px;
+
+}
+
+.background {
+  background-image: url(img/bg-bw.jpg);
+  background-position: center;
+}
+
+
+
+ul {
+  color: white;
+  font-size: 20px;
+}
+
+li {
+  font-size: 16px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.badge {
+  font-weight: bold;
+  border: 1px solid white;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  position: absolute;
+  right: 10%;
+}
+
+.designLi {
+  padding-bottom: 15px;
+}
+
+.titreLi {
+  font-weight: bold;
+  list-style-type: none;
+}
+
+@media all and (max-width: 320px) {
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .badge {
+    display: none;
+  }
+}
+
+footer {
+  color: white;
+  background-size: cover;
+  letter-spacing: 4px;
+  line-height: 10px;
+}
+footer a:hover{
+  text-decoration: none;
+  color: white;
+}
+.navbar {
+  background-color: #1f1f1f;
+}
+.navbar li{
+  font-size: 24px;
+  padding-bottom: 1%;
+}
+.my-font-awesome{
+  color: white;
+}
+.my-font-awesome :hover{
+  color: rgb(52, 52, 245);
+}
+/*# sourceMappingURL=carte.css.map */

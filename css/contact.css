@@ -1,0 +1,30 @@
+body {
+  font-family: 'nunito',sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Courgette', cursive;
+}
+
+
+.navbar{
+  font-size: 24px;
+  padding-bottom: 1%; 
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: white;
+}
+footer{
+  letter-spacing: 4px;
+  line-height: 10px;
+}
+.my-font-awesome{
+  color: white;
+}
+.my-font-awesome :hover{
+    color: rgb(52, 52, 245);
+}
+
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,67 @@
+h1,
+h2,
+h3 {
+    font-family: "Courgette", cursive;
+
+}
+
+ul,
+strong, p {
+    font-family: "Nunito", sans-serif;
+}
+
+p{
+    font-size:18px;
+}
+
+.my-panel-news {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.panel-heading,
+.panel-body {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.navbar {
+    backgroundem-color: #1f1f1f;
+    font-size: 24px;
+    padding-bottom: 1%;
+}
+
+.h3 {
+    letter-spacing: 4px;
+    line-height: 28px;
+}
+
+
+footer {
+    color: white;
+    background-size: cover;
+    letter-spacing: 4px;
+    line-height: 10px;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.my-font-awesome {
+    color: white;
+}
+
+.my-font-awesome :hover {
+    color: rgb(52, 52, 245);
+}
+
+@media all and (max-width:990px) {
+
+    .hiddenImg {
+        display: none;
+    }
+}

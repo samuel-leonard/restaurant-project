@@ -1,0 +1,23 @@
+$color1: #ffac31;
+
+body{
+    background-color: $color1;
+    font-family: 'nunito',sans-serif;
+
+}
+
+h1,h2,h3,h4{
+    font-family: 'Courgette', cursive;
+}
+
+.btn{
+    background-color:$color1;
+
+    &:hover{
+        background-color: royalblue;
+
+    }
+}
+
+
+

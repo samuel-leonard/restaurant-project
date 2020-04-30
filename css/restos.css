@@ -1,0 +1,48 @@
+h1{
+    font-family:"Courgette", cursive;
+
+}
+
+h2, ul, strong{
+    font-family: "Nunito", sans-serif;
+}
+.main{
+    background-color: rgb(255, 172, 49);
+}
+footer{
+    background-color: #1f1f1f;
+    color: white;
+    background-size: cover;
+    letter-spacing: 4px;
+    line-height: 10px;
+}
+footer a:hover{
+    text-decoration: none;
+    color: white;
+}
+.my-font-awesome{
+    color: white;
+  }
+  .my-font-awesome :hover{
+    color: rgb(52, 52, 245);
+  }
+
+  
+.navbar{
+    background-color: #1f1f1f;
+    font-size: 24px;
+    padding-bottom: 1%; 
+}
+body{
+    background-color:rgb(255, 172, 49);
+}
+
+.myBackground{
+    background-image: url(../../img/bg-bw.jpg);
+    color: white;
+    font-size: 24px;
+}
+.panel-body ul{
+    list-style-type: none;
+    padding-top: 50px;
+}

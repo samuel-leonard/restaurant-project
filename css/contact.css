@@ -1,30 +1,69 @@
-body {
-  font-family: 'nunito',sans-serif;
-}
 
-h1, h2, h3, h4 {
+
+h1 {
+
+
+  font-size: 50px;
   font-family: 'Courgette', cursive;
 }
 
+h2{
+font-size: 35px;
+font-family: 'Courgette', cursive;
 
-.navbar{
-  font-size: 24px;
-  padding-bottom: 1%; 
 }
 
-footer a:hover{
-  text-decoration: none;
-  color: white;
+p {
+font-family: 'Nunito', sans-serif;
+
+font-size: 20px;
 }
-footer{
-  letter-spacing: 4px;
-  line-height: 10px;
+
+
+
+
+
+.bouton {
+margin: 20px;
+margin-top: 5px;
+}
+
+.navbar {
+background-color: #1f1f1f;
+font-size: 24px;
+padding-bottom: 1%;
+}
+
+footer {
+background-color: #1f1f1f;
+color: white;
+background-size: cover;
+letter-spacing: 4px;
+line-height: 10px;
+}
+
+footer a:hover {
+text-decoration: none;
+color:white;
+}
+
+.map-container-5{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-5 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
 }
 .my-font-awesome{
-  color: white;
+color: white;
 }
 .my-font-awesome :hover{
-    color: rgb(52, 52, 245);
+color: rgb(52, 52, 245);
 }
-
-/*# sourceMappingURL=contact.css.map */
+/*# sourceMappingURL=photo.css.map */

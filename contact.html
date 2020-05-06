@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <title>Le petit Montagnard</title>
+</head>
+
+<body style="background-image: url(img/montagne-contact.jpg); background-size:cover;">
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border border-secondary mb-0">
+        <a class="navbar-brand" href="#"><img src="img/logo-le-ptit-montagnard.png" class="w-50"></a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="carte.html">Carte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="entrees.html">Photos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="restaurant.html">Restaurant</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><span class="sr-only">(current)</span>Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="text-center bg-danger p-3 mb-5 text-white border border-secondary">contactez <span class="text-dark">nous</span></h1>
+
+    <!--form-->
+
+    <div class="container mb-5 mt-3 mx-auto">
+        <form>
+            <div class="row">
+                <div class="col-xl-8 col-md-12 mb-5 border rounded primary-lg bg-primary text-white">
+                    <div class="row">
+
+                        <!--first-name-->
+
+                        <div class="col-md-6 col-xs-12">
+                            <div class="form-group mt-3">
+                                <label>Prénom</label>
+                                <input type="text" name="prenom" placeholder="Saisissez votre prénom"
+                                    class="form-control" />
+                            </div>
+                        </div>
+
+                        <!--second-name-->
+
+                        <div class="col-md-6 col-xs-12 ">
+                            <div class="form-group mt-3">
+                                <label>nom</label>
+                                <input type="text" name="nom" placeholder="Saisissez votre nom" class="form-control" />
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--email-->
+
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="form-group">
+                                <label>email</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">@</div>
+                                    </div>
+                                    <input type="text" name="email" placeholder="Saisissez votre email"
+                                        class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--questions-->
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label>Questions</label>
+                                <select class="form-control">
+                                    <option value="readonly">- Questions -</option>
+                                    <option value="menu">nos menus</option>
+                                    <option value="livraison">notre système de livraison</option>
+                                    <option value="horaires">nos horaires</option>
+                                    <option value="réservations">les réservations</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--message-->
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="textarea">Votre message</label>
+                                <textarea class="form-control" id="textarea" rows="5"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--submited-->
+
+                    <a href="#" class="btn btn-outline-light my-3 btn-lg" type="submit"><i class="fa fa-envelope"></i>
+                        Envoyer</a>
+                </div>
+
+                <!--restaurant contact adress-->
+
+                <div class="col-xl-3 offset-1 col-md-12 mb-5 mx-auto border rounded shadow-lg bg-primary text-white">
+                    <div class="row text-center">
+
+                        <!--dogger mariembourg-->
+
+                        <div class="col-12 my-5">
+                            <h3 class="border-bottom pb-5 mb-5">Le P'tit<br>Montagnard</h3>
+                            <p class="text-center border-bottom  pb-5 mb-5">Rue de Binche 46,<br>
+                            6540<br>Mont-Sainte-Geneviève</p>
+                            <p>Téléphone : 071 59 84 51</br>Gsm : 0471.78.75.71</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+
+    <footer class="container-fluid bg-danger text-white pb-5">
+        <div class="row justify-content-center d-flex">
+            <div class="mt-auto mb-auto col-md-2 col-sm-12 col-12 h5 mt-sm-5 text-center">
+                © 2020 Copyright: <a href="https://mdbootstrap.com/education/bootstrap/"> </br>Le P'tit Montagnard</a>
+            </div>
+            <div class="mt-auto mb-auto col-md-4 col-sm-12 col-12 py-5">
+                <div class="justify-content-center d-flex">
+                    <!-- Facebook -->
+                    <a class="fb-ic my-font-awesome" href="#">
+                        <i class="fa fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!-- Twitter -->
+                    <a class="tw-ic my-font-awesome" href="#">
+                        <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Linkedin -->
+                    <a class="li-ic my-font-awesome" href="#">
+                        <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Instagram-->
+                    <a class="ins-ic my-font-awesome" href="#">
+                        <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-auto mb-auto justify-content-center d-flex col-md-6 col-sm-12 col-12 h5 text-sm-center">
+                This website has been realised by -<a href="https://www.linkedin.com/in/leonard-samuel/"> Samuel
+                    Leonard</a>
+            </div>
+        </div>
+    </footer>
+
+
+<!-- details card section starts from here -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+</body>
+
+</html>
